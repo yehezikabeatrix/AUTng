@@ -45,7 +45,7 @@ jobs:
         cache: maven
     - name: Run Selenium Script
       run:  | 
-            cd ./LoginTestCase
+            cd ./logintest
             mvn test
     - name: Stop Docker
       run:  docker stop docker-apache 
